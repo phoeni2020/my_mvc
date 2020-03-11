@@ -1,0 +1,16 @@
+body{
+    background: gray;
+    font-family: "Calibri Light";
+}
+.headr{
+    padding: 20px;
+    background: gold;
+}
+.content{
+    background: white;
+    padding:20px;
+}
+footer{
+    background: aqua;
+    padding: 20px;
+}

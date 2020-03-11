@@ -1,0 +1,6 @@
+RewriteEngine On
+
+RewriteCond %{REQISET_FILENAME} !-f
+RewriteCond %{REQISET_FILENAME} !-d
+RewriteCond %{REQISET_FILENAME} !-l
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
